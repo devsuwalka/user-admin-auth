@@ -1,7 +1,7 @@
 // pages/user/signin.js
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import styles from '../../styles/Signin.module.css';
+import styles from '@/styles/Signin.module.css';
 
 export default function SignIn() {
   const [form, setForm] = useState({ email: '', password: '' });

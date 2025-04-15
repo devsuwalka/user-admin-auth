@@ -1,6 +1,7 @@
 // app/api/verify-otp/route.js
 import connectDB from "@/lib/db";
-import User from "/models/User";
+import User from '../../models/user';
+
 
 export async function POST(req) {
   await connectDB();
