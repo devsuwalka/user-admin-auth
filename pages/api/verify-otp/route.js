@@ -1,6 +1,6 @@
 // app/api/verify-otp/route.js
 import connectDB from "@/lib/db";
-import User from './models/User'; // ✅ matches file name exactly
+import User from '../../../models/user'; //
 
 
 
