@@ -1,6 +1,7 @@
 // app/api/verify-otp/route.js
 import connectDB from "@/lib/db";
-import User from '../../models/user';
+import User from '../../models/User'; // ✅ matches file name exactly
+
 
 
 export async function POST(req) {
