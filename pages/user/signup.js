@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router'; // ✅ Import router
-import styles from '@/styles/Signup.module.css';
+import styles from '@/styles/signup.module.css';
 
 export default function Signup() {
   const [form, setForm] = useState({
