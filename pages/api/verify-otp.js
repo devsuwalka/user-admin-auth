@@ -1,5 +1,5 @@
 import connectDB from '@/lib/db';
-import User from '/models/User';
+import User from './models/User';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
